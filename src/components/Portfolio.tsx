@@ -16,7 +16,7 @@ const projectsData: Project[] = [
     category: "Health & Medical",
     description: "Plataforma médica com ecossistema de agendamento em tempo real sincronizado e otimização de conversão via WhatsApp.",
     tags: ["React", "UI/UX", "API Integration"],
-    mockupUrl: "/img/img1.jpg"
+    mockupUrl: "img/img1.jpg"
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const projectsData: Project[] = [
     category: "E-Commerce / Delivery",
     description: "Cardápio digital progressivo integrado com gerenciador de pedidos automatizado e infraestrutura serverless de alta velocidade.",
     tags: ["Next.js", "Tailwind", "Live Cart"],
-    mockupUrl: "/img/img2.jpg"
+    mockupUrl: "img/img2.jpg"
   },
   {
     id: 4,
@@ -32,7 +32,7 @@ const projectsData: Project[] = [
     category: "Legal Tech / Consultoria",
     description: "Plataforma de consultoria jurídica online com sistema de agendamento, gestão de documentos e área segura para clientes.",
     tags: ["TypeScript", "Node.js", "Animations"],
-    mockupUrl: "/img/img4.jpg"
+    mockupUrl: "img/img4.jpg"
   }
 ];
 
