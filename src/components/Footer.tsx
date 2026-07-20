@@ -12,11 +12,15 @@ export default function Footer() {
   return (
     <footer className="border-t border-white/5 py-10">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-6 px-6 text-center md:flex-row md:justify-between md:text-left">
-        <span className="font-display font-bold tracking-tight">
-          <span className="text-neon">C2M</span>
-          <span className="text-gold">TECH</span>
-        </span>
+        
+        {/* Nova logo idêntica à do Hero */}
+        <div className="flex items-center gap-2">
+          <span className="font-display text-2xl font-bold tracking-tight text-white">
+            C2M<span className="text-cyan-400">TECH</span>
+          </span>
+        </div>
 
+        {/* Lista de Redes Sociais */}
         <nav className="flex gap-5">
           {SOCIALS.map(({ icon: Icon, href, label }) => (
             <a
@@ -40,7 +44,10 @@ export default function Footer() {
           </a>
         </nav>
 
-        <p className="text-xs text-white/40">© {new Date().getFullYear()} C2MTECH. Todos os direitos reservados.</p>
+        {/* Copyright */}
+        <p className="text-xs text-white/40">
+          © {new Date().getFullYear()} C2MTECH. Todos os direitos reservados.
+        </p>
       </div>
     </footer>
   );

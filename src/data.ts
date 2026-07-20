@@ -91,8 +91,8 @@ export const PORTFOLIO = [
     device: 'tablet' as const,
   },
   {
-    title: 'Studio Barber Club',
-    description: 'Site responsivo com galeria de cortes e reservas online.',
+    title: "Advogado",
+    description: "Plataforma de consultoria jurídica online com sistema de agendamento, gestão de documentos e área segura para clientes.",
     device: 'smartphone' as const,
   },
 ];

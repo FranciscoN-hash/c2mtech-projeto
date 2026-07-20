@@ -25,16 +25,16 @@ const projectsData: Project[] = [
     category: "E-Commerce / Delivery",
     description: "Cardápio digital progressivo integrado com gerenciador de pedidos automatizado e infraestrutura serverless de alta velocidade.",
     tags: ["Next.js", "Tailwind", "Live Cart"],
-    mockupUrl: "https://images.unsplash.com/photo-1555421689-491a97ff2040?auto=format&fit=crop&q=80&w=600"
+    mockupUrl: ":\Users\najuu\OneDrive\Desktop\C2MTECH\Template- list 2.0\restaurante\Img\logo principal.jpg"
   },
-  {
-    id: 3,
-    title: "Studio Barber Club",
-    category: "Corporate / Booking",
-    description: "Portal de agendamento premium com catálogo dinâmico de serviços, área de membros e painel administrativo intuitivo.",
-    tags: ["TypeScript", "Node.js", "Animations"],
-    mockupUrl: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&q=80&w=600"
-  }
+    {
+  id: 3,
+  title: "Advogado",
+  category: "Legal Tech / Consultoria",
+  description: "Plataforma de consultoria jurídica online com sistema de agendamento, gestão de documentos e área segura para clientes.",
+  tags: ["TypeScript", "Node.js", "Animations"],
+  mockupUrl: "https://images.unsplash.com/photo-1589829545856-3b0451996773?auto=format&fit=crop&q=80&w=600"
+},
 ];
 
 export default function Portfolio() {
